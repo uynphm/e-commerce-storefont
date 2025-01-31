@@ -141,6 +141,7 @@ const VideoCarousel = () => {
             case 'video-reset':
                 setVideo((pre) => ({
                     ...pre,
+                    videoId: 0,
                     isLastVideo: false
                 }));
                 break;
@@ -221,15 +222,14 @@ const VideoCarousel = () => {
 
                 <button className="control-btn">
                     <img
-                        src={isLastVideo ? replayImg :
-                            !isPlaying ? playImg : pauseImg}
-                        alt={isLastVideo ? 'replay' :
-                            !isPlaying ? 'play' : 'pause'}
-                        onClick={isLastVideo
-                            ? () => handleProcess('video-reset')
-                            : !isPlaying
-                                ? () => handleProcess('play')
-                                : () => handleProcess('pause')
+                        src={isLastVideo ? replayImg : !isPlaying ? playImg : pauseImg}
+                        alt={isLastVideo ? "replay" : !isPlaying ? "play" : "pause"}
+                        onClick={
+                            isLastVideo
+                                ? () => handleProcess("video-reset")
+                                : !isPlaying
+                                    ? () => handleProcess("play")
+                                    : () => handleProcess("pause")
                         }
                     />
                 </button>
