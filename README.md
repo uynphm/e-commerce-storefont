@@ -35,6 +35,7 @@ To get started with this project locally, follow these steps:
    ```bash
    npm install
 4. **Run development server**:
+   ```bash
    npm run dev
 
 Your application will be accessible at http://localhost:5173.
