@@ -38,6 +38,6 @@ To get started with this project locally, follow these steps:
    ```bash
    npm run dev
 
-Your application will be accessible at http://localhost:5173.
+The application will be accessible at http://localhost:5173.
 
 
