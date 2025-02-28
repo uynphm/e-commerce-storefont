@@ -2,16 +2,7 @@
 
 ## Overview
 
-This project is a **responsive e-commerce storefront** built using **HTML/CSS**, **React**, and **Tailwind CSS**. The platform ensures a seamless shopping experience, featuring interactive elements like **product carousels**, **hover effects**, and **3D product views**. Optimized for performance, it offers a smooth experience across all devices.
-
-## Features
-
-- **Responsive Design**: Crafted using **Tailwind CSS** for mobile-first and responsive layouts across devices.
-- **Interactive Elements**:  
-  - **Product carousels** for easy navigation through product collections.
-  - **Hover effects** to enhance interactivity and engagement.
-  - **3D product views** powered by **Three.js** for immersive shopping.
-- **Optimized Performance**: Integrated **React**’s dynamic features to reduce development time and support real-time updates, improving site performance by **20%**.
+This project is a responsive e-commerce storefront built using HTML/CSS, React, and Tailwind CSS. The platform ensures a seamless shopping experience, featuring interactive elements like product carousels, hover effects, and 3D product views. Optimized for performance, it offers a smooth experience across all devices.
 
 ## Technologies Used
 
